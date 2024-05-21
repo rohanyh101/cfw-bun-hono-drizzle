@@ -1,0 +1,27 @@
+name = "cfw-bun-hono-drizzle"
+compatibility_date = "2023-12-01"
+send_metrics = false
+
+[[d1_databases]]
+binding = "DB" # i.e. available in your Worker on env.DB
+database_name = "cfw-bun-hono-drizzle-d1"
+database_id = "d042f940-2f17-46b2-a7e4-b5d03ea59b84"
+
+[vars]
+MY_VAR = "my-variable"
+
+# [[kv_namespaces]]
+# binding = "MY_KV_NAMESPACE"
+# id = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+
+# [[r2_buckets]]
+# binding = "MY_BUCKET"
+# bucket_name = "my-bucket"
+
+# [[d1_databases]]
+# binding = "DB"
+# database_name = "my-database"
+# database_id = ""
+
+# [ai]
+# binding = "AI"
