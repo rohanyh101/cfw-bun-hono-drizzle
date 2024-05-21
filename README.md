@@ -30,6 +30,8 @@ npm run deploy
 ```
 
 SOME CURL COMMANDS TO EXECUTE,
+- The below commands work in PowerShell, To execute them in bash replace `backtick` with `backward slash`
+
 ```powershell
 curl --location --request DELETE 'https://cfw-bun-hono-drizzle.tempoonlyacc.workers.dev/posts/3' `
 >> --header 'Content-Type: application/json'
